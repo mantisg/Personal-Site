@@ -38,6 +38,9 @@ export default function App() {
         <button onClick={() => clickContact()}>Contact Me</button>
       </div>
       <div className="body-container">
+        <div className="photo-container">
+          <img/>
+        </div>
         {aboutMe && !links && !contact
           ? (<AboutMe/>)
           : (links && !aboutMe && !contact

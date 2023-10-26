@@ -14,15 +14,19 @@ h2 {
   font-size: 40px;
 }
 
+p {
+  width: 800px;
+}
+
 .App {
   height: 100vmin;
-  background-color: #282c39;
+  background-color: #282c41;
 }
 
 .header-container {
   display: flex;
   justify-content: center;
-  background-color: #282c39;
+  background-color: #282c41;
   font-size: calc(15px + 2vmin);
   color: #999;
 }
@@ -33,7 +37,16 @@ h2 {
   justify-content: space-evenly;
 }
 
+.photo-container {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  background-color: #282c34;
+  margin-bottom: 0px;
+}
+
 .body-container {
+  height: 100vmin;
   background-color: #282c34;
   color: #ccc;
 }
